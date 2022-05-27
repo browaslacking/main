@@ -1,0 +1,8 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/better/main/notis/a.lua"))()
+local main1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/better/main/gui/guiC.lua"))()
+local main2 = main1.CreateLib("Neverlocking.wtf", "Midnight")
+local main3 = main2:NewTab("Aimbot")
+local main4 = main3:NewSection("Aimlock")
+main4:NewButton("Tenaki assist", "Tenakis aim assist ( V )", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/aimbot/main/sas.lua"))()
+end)
