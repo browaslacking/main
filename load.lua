@@ -12,3 +12,12 @@ end)
 main4:NewButton("Silent Aim", " 50% hit chance", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/aimbot/main/streamproof1.lua"))()
 end)
+local main28 = main2:NewTab("Misc")
+local main29 = main28:NewSection("Menu key")
+main29:NewKeybind(
+    "Keybind Gui Toggle",
+    "LeftCtrl",
+    Enum.KeyCode.RightControl,
+    function()
+	main1:ToggleUI()
+end)
