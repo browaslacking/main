@@ -1,4 +1,7 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/better/main/notis/a.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/ghettofix/main/2.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/ghettofix/main/1.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/ghettofix/main/3.lua"))()
 local main1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/neverlackinga/better/main/gui/guiC.lua"))()
 local main2 = main1.CreateLib("Neverlocking.wtf", "Midnight")
 local main3 = main2:NewTab("Aimbot")
